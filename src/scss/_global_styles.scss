@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: var(--main-gray);
+}
+
+.content-wrapper {
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+.main {
+	margin: 0 auto;
+	width: 100%;
+	max-width: var(--global-page-width);
+
+	flex-grow: 1;
+}
