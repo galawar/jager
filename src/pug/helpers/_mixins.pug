@@ -1,3 +1,7 @@
 mixin icon(icon)
 	svg.icon
 		use(xlink:href=`img/sprite.svg#${icon}`)
+
+mixin menuBurger()
+	a.menu-burger(href='#' role='button' aria-label='menu' aria-expanded='false' data-target='')
+		span(aria-hidden='true')

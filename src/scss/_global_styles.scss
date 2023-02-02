@@ -12,6 +12,10 @@ body {
 	margin: 0;
 	padding: 0;
 	background: var(--main-gray);
+
+	&.menu-open {
+		overflow: hidden;
+	}
 }
 
 .content-wrapper {

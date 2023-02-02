@@ -1,3 +1,7 @@
-import {test} from "./modules/test.js";
+import { menuBurger } from './modules/menuBurger.js';
 
-test();
+window.addEventListener('DOMContentLoaded', (e) => {
+	console.log('DOM fully loaded and parsed');
+
+	menuBurger('menu-burger--open');
+});
