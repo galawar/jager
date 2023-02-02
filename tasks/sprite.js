@@ -18,12 +18,6 @@ export default () => {
 					message: error.message
 				}))
 			}))
-			.pipe(svgSprite({
-				mode: {
-					stack: {
-						sprite: '../sprite.svg'
-					}
-				}
-			}))
+			.pipe(svgSprite(options.sprite))
 			.pipe(gulp.dest(paths.img.dest))
 }
