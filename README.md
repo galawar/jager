@@ -1,4 +1,4 @@
-#JAGER
+# JAGER
 
 Install packages: `npm i`
 
